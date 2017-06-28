@@ -142,7 +142,8 @@
   'target_defaults': {
     'include_dirs': [
       'mpi',
-      'ecl'
+      'ecl',
+      'verified'
     ],
     'defines': [
       'SHLIB_SUFFIX=\"<(dll_suffix)\"',

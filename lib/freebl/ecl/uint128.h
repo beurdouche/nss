@@ -7,7 +7,7 @@
 #define MASK51 0x7ffffffffffffULL
 
 #ifdef HAVE_INT128_SUPPORT
-typedef unsigned __int128 uint128_t;
+typedef unsigned __int128 uint128_t, FStar_UInt128_t, FStar_UInt128_t_;
 #define add128(a, b) (a) + (b)
 #define mul6464(a, b) (uint128_t)(a) * (uint128_t)(b)
 #define mul12819(a) (uint128_t)(a) * 19

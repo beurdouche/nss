@@ -57,7 +57,8 @@
     'sha_fast.c',
     'shvfy.c',
     'sysrand.c',
-    'tlsprfalg.c'
+    'tlsprfalg.c',
+    'verified/Curve25519.c'
   ],
   'conditions': [
     [ 'OS=="linux" or OS=="android"', {
