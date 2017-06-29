@@ -2,8 +2,6 @@
 #ifndef __Curve25519_H
 #define __Curve25519_H
 
-
-
 #include "kremlib.h"
 
 typedef uint64_t Hacl_Bignum_Constants_limb;
